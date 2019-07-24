@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="filter_memorial"
+        android:title="@string/cat_memorial" />
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="filter_statue"
+        android:title="@string/cat_statue" />
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="filter_building"
+        android:title="@string/cat_building" />
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="filter_park"
+        android:title="@string/cat_park" />
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="filter_play_area"
+        android:title="@string/cat_play_area" />
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="filter_street_art"
+        android:title="@string/cat_street_art" />
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="filter_toilet"
+        android:title="@string/cat_toilet" />
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="filter_bin"
+        android:title="@string/cat_bin" />
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="filter_misc"
+        android:title="@string/cat_misc"/>
+</PreferenceScreen>
